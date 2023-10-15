@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container1 {
+  height: 600px;
+}
+.box1 {
+  height: inherit;
+  text-align: center;
+  background-color: lime;
+  float: left;
+  width: 33%;
+}
+.box2 {
+  width: 67%;
+  height: inherit;
+  float: right;
+}
+.content {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+.par1 {
+  height: 150px;
+  background-color: lightblue;
+}
+.par2 {
+  height: 450px;
+  background-color: lightyellow;
+}
+.container2 {
+  height: 300px;
+}
+.box3 {
+  height: inherit;
+  width: 67%;
+  float: left;
+  background-color: lightsalmon;
+}
+.box4 {
+  text-align: center;
+  height: 100%;
+  width: 33%;
+  float: right;
+  background-color: violet;
+}
