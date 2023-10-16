@@ -1,0 +1,30 @@
+.green {
+  background-color: lightgreen;
+}
+.blue {
+  background-color: blue;
+  color: white;
+}
+.hidden {
+  display: none;
+}
+.btn {
+  background: transparent;
+  border-radius: 25px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.add {
+  background-color: lightgreen;
+}
+.in,
+.out {
+  background-color: lightblue;
+}
+.delete {
+  background-color: lightcoral;
+}
