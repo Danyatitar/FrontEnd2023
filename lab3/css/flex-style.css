@@ -14,7 +14,6 @@
 }
 .box2 {
   width: 67%;
-  float: right;
 }
 .par1 {
   height: 150px;
@@ -29,12 +28,13 @@
   height: 300px;
 }
 .box3 {
+  text-align: center;
   width: 67%;
   background-color: lightsalmon;
 }
 .box4 {
-  text-align: center;
   width: 33%;
+  text-align: center;
   background-color: violet;
 }
 .content {
