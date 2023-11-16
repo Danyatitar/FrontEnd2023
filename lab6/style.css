@@ -1,0 +1,38 @@
+.btn {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  width: 100%;
+  border-radius: 20px;
+}
+.container {
+  display: flex;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item {
+  width: 350px;
+  background-color: gray;
+}
+.img {
+  height: 300px;
+  width: 100%;
+  margin: 0;
+}
+
+.info {
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.result {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}

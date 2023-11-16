@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Tytarenko_Danylo_IP12</title>
+  </head>
+  <body>
+    <h1>Task 1</h1>
+    <h2 class="title">Form</h2>
+    <div class="container">
+      <form class="">
+        <input
+          type="text"
+          class="input name"
+          placeholder="Name"
+          pattern="[А-ЯІЇЄҐа-яіїєґA-Za-z]+ [А-ЯІЇЄҐA-Za-z]\.[А-ЯІЇЄҐA-Za-z]\."
+          title="Please enter the text in the ТТТТТТ Т.Т. format."
+          required
+        />
+        <input
+          type="text"
+          class="input date"
+          placeholder="Date of birth"
+          pattern="\d{2}\.\d{2}\.\d{4}"
+          title="Please enter the text in the dd.mm.yyyy
+          format."
+          required
+        />
+        <input
+          type="text"
+          class="input address"
+          placeholder="Address"
+          pattern="м\.\s*[а-яА-Яa-zA-Z]+"
+          title="Please enter the text in the м. ТТТТТ
+        format."
+          required
+        />
+        <input
+          type="text"
+          class="input email"
+          placeholder="Email"
+          pattern="[a-zA-Z0-9.]+@[a-zA-Z0-9]+\.com"
+          title="Please enter email in the 	тттттт@ттттт.com format"
+          required
+        />
+        <input
+          type="text"
+          class="input telegram"
+          placeholder="Telegram"
+          pattern="^@[a-zA-Z0-9._%+]*_[a-zA-Z0-9._%+]+"
+          title="Please enter email in the 	@Т_ТТТТТ format"
+          required
+        />
+        <input type="submit" class="btn" value="Submit" id="submit" />
+      </form>
+    </div>
+    <div class="resulted-form">
+      <h2 class="title">Data</h2>
+      <div class="container2" id="data"></div>
+    </div>
+    <h1>Task 2</h1>
+    <input type="color" class="color" />
+    <div class="table"></div>
+    <script src="./main.js"></script>
+  </body>
+</html>
