@@ -7,6 +7,7 @@ const telegramInput = document.querySelector(".telegram");
 const data = document.getElementById("data");
 const table = document.querySelector(".table");
 const colorInput = document.querySelector(".color");
+
 const renderTable = () => {
   let tableItems = "";
   let n = 0;
@@ -22,6 +23,7 @@ const renderTable = () => {
   table.innerHTML = tableItems;
 };
 renderTable();
+
 const item = document.getElementById("item-18");
 
 submitBtn.addEventListener("click", (e) => {

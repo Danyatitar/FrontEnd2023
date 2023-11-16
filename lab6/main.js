@@ -4,7 +4,7 @@ const container = document.querySelector(".container");
 
 sendRequest = async () => {
   const data = fetch("https://randomuser.me/api");
-  return await data
+  return data
     .then((response) => response.json())
     .then((data) => data.results[0])
     .catch((err) => null);
